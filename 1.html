@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>少年阿飞</title>
+<!--meta http-equiv="Content-Type" content="text/html; charset=gb2312" /-->
+<!--meta http-equiv="Refresh" content="5;url=http://www.baidu.com" /-->
+<style>
+.ziti {
+    background-color:white;
+    color:black;
+    margin:20px;
+    padding:20px;
+}
+</style>
+<style>
+span.red {
+    color:red;
+}
+</style>
+</head>
+<body bgcolor="pink">
+<!--body bgcolor="#000000"-->
+<!--body bgcolor="rgb(0,0,0)"-->
+<!--body bgcolor="black"-->
+<!--body style="background-color:yellow"-->
+<!--body background= "eg_background.jpg" style=" background-repeat:no-repeat;background-size:50% 100%;background-attachment: fixed;"-->
+<p style="font-family:verdana;color:black">pyro</p>
+<div class="ziti">
+<h1 style="text-align:center"><q>春晓</q></h1>
+
+<p style="font-size:30px;text-align:center">
+春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。
+<br/>
+<img src="1.jpg" width="50" height="100" alt="The Scream"></p>
+</div>
+<form style="text-align:center" action="1.asp">
+<legend>基本信息:</legend>
+<fieldset>
+ 姓名:<br/>
+<input type="text" name="姓名" placeholder="姓名"/>
+<br/>
+ 身份证号:<br/>
+<input type="password" name="身份证号">
+<br/>
+<input type="radio" name="sex" value="男" checked>男
+<br/>
+<input type="radio" name="sex" value="女">女
+<br/>
+<input type="checkbox" name="sex" value="中性">中性
+<br/>
+生日：
+<input type="date" name="bday">
+<input type="submit">
+<br/>
+<input type="color" name="favcolor" value="#ff0000">
+<br/>
+喜欢英雄数量：
+<input type="number" name="quantity" min="0" max="4">
+<br/>
+<select name="heros">
+<option value="安妮">黑暗之女 安妮</option>
+<option value="劫">影流之主 劫</option>
+<option value="艾克">时间刺客 艾克</option>
+<option value="奇亚娜">元素女皇 奇亚娜</option>
+</select>
+<br/>
+<input list="browsers" name="browser">
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+<br/>
+</fieldset>
+
+<input type="submit">
+<br/>
+<input type="submit" formaction="2.asp" value="以管理员身份提交" />
+<br/>
+选择图片：<input type="file" name="img" multiple="multiple" />
+<br/>
+<input type="submit" />
+<video width="320" height="240" controls="controls">
+  <!--source src="movie.ogg" type="video/ogg"-->
+  <source src="1.mp4" type="video/mp4">
+</video>
+</form> 
+<form action="action_page.php" method="get">
+  Points:
+  <input type="range" name="points" min="0" max="10">
+  <input type="submit">
+
+</form>
+<br/>
+<button type="button" onclick="alert('点我也没啥用!')">点击我！</button>
+<br/>
+<textarea name="message" rows="10" cols="30">
+this is a exam.
+</textarea>
+<br/>
+<iframe src="2.html" frameborder="0"></iframe>
+<p style="text-align:center"><img src="1.gif" width="50" height="50" alt="无法显示"/></p>
+<p>不懂的情咨询<a href="http://baidu.com/" target="_blank"><img border="0" src="2.jpg" /></a> </p>
+
+<table>
+<tr>
+  <td>&nbsp;</td>
+  <td>200</td>
+  <td>300</td>
+</tr>
+<tr>
+  <td>&#60</td>
+  <td>&#160</td>
+  <td>600</td>
+</tr>
+</table>
+<address>
+Written by <span class="red">Zheng Pengfei</span>.<br> 
+
+</address>
+
+</body>
+
+</html>
